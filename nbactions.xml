@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Dev</actionName>
+        <displayName>OpenLiberty - Dev</displayName>
+        <goals>
+            <goal>liberty:dev</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Run</actionName>
+        <displayName>OpenLiberty - Run</displayName>
+        <goals>
+            <goal>liberty:run</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Stop</actionName>
+        <displayName>OpenLiberty - Stop</displayName>
+        <goals>
+            <goal>liberty:stop</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Clean</actionName>
+        <displayName>OpenLiberty - Clean</displayName>
+        <goals>
+            <goal>liberty:clean</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Create</actionName>
+        <displayName>OpenLiberty - Create</displayName>
+        <goals>
+            <goal>liberty:create</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Start</actionName>
+        <displayName>OpenLiberty - Start</displayName>
+        <goals>
+            <goal>liberty:start</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Status</actionName>
+        <displayName>OpenLiberty - Status</displayName>
+        <goals>
+            <goal>liberty:status</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Deploy</actionName>
+        <displayName>OpenLiberty - Deploy</displayName>
+        <goals>
+            <goal>liberty:deploy</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Undeploy</actionName>
+        <displayName>OpenLiberty - Undeploy</displayName>
+        <goals>
+            <goal>liberty:undeploy</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Java dump</actionName>
+        <displayName>OpenLiberty - Java dump</displayName>
+        <goals>
+            <goal>liberty:java-dump</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-OpenLiberty - Display URL</actionName>
+        <displayName>OpenLiberty - Display URL</displayName>
+        <goals>
+            <goal>liberty:display-url</goal>
+        </goals>
+    </action>
+</actions>
