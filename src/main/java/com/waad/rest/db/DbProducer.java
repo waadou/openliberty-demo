@@ -1,16 +1,18 @@
 package com.waad.rest.db;
 
-import com.waad.rest.model.User;
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.inject.Produces;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Optional;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import static java.util.Objects.isNull;
-import java.util.Optional;
 import static java.util.stream.Collectors.toList;
+
+import jakarta.enterprise.inject.Produces;
+import jakarta.enterprise.context.ApplicationScoped;
+
+import com.waad.rest.model.User;
 
 /**
  *

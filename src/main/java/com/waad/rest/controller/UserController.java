@@ -1,6 +1,5 @@
 package com.waad.rest.controller;
 
-import com.waad.rest.db.Database;
 import java.util.Optional;
 
 import jakarta.ws.rs.GET;
@@ -17,6 +16,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.enterprise.event.Event;
 
 import com.waad.rest.model.User;
+import com.waad.rest.db.Database;
 import com.waad.rest.db.Selected;
 
 @Stateless
